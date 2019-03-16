@@ -4,7 +4,8 @@
   "description": "my portfolio project with Lambda School",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -12,11 +13,12 @@
   },
   "author": "Katheryn Cuevas",
   "license": "MIT",
+  "homepage": "https://meetnerdykat.github.io/portfolio-website",
   "bugs": {
     "url": "https://github.com/meetnerdykat/portfolio-website/issues"
   },
-  "homepage": "https://github.com/meetnerdykat/portfolio-website#readme",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0"
   }
 }
