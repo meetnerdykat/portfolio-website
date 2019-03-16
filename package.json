@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "my portfolio project with Lambda School",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meetnerdykat/portfolio-website.git"
+  },
+  "author": "Katheryn Cuevas",
+  "license": "MIT",
+  "homepage": "https://meetnerdykat.github.io/portfolio-website",
+  "bugs": {
+    "url": "https://github.com/meetnerdykat/portfolio-website/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.11.0"
+  }
+}
